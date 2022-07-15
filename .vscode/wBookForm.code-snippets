@@ -1,0 +1,14 @@
+{
+"": {
+  "prefix": "wbookform",
+  "body": [
+    "<h2 >New Books</h2>",
+    "<form action=\"/books\" method=\"POST\">",
+    "<%- include('_form_fields') %>",
+    "<a href=\"/books\">Cancel</a>",
+    "  <button type=\"submit\">Create</button>",
+    "</form>"
+  ],
+  "description": ""
+}
+}
